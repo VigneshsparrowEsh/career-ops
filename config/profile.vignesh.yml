@@ -1,0 +1,90 @@
+# Career-Ops Profile Configuration
+# Vignesh V — Personal Job Search Configuration
+# Last updated: May 2026
+
+candidate:
+  full_name: "Vignesh V"
+  email: "vigvishnu987@gmail.com"
+  phone: "+91-9344941328"
+  location: "Bengaluru, Karnataka, India"
+  linkedin: "linkedin.com/in/vignesh-v-051a001b3"
+  portfolio_url: "https://skillyou.in"
+  github: "github.com/VigneshsparrowEsh"
+  twitter: ""
+
+target_roles:
+  primary:
+    - "Business Analyst"
+    - "Supply Chain Analyst"
+    - "Data Analyst"
+    - "AI Analyst"
+    - "Operations Analyst"
+  archetypes:
+    - name: "Supply Chain & E-Commerce Analyst"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Business Analyst"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Data Analyst"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "AI Business Analyst"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Operations Analyst"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Data Scientist"
+      level: "Mid"
+      fit: "adjacent"
+
+narrative:
+  headline: "Supply Chain & Data Analyst | SQL · Python · Power BI | Open to Remote Global Roles"
+  exit_story: >
+    Started as a Business Analyst in a fast-paced startup, moved into data and
+    digital consulting, and now working inside Flipkart's Myntra Central Control
+    Tower tracking 5–8 lakh shipments daily across India. Also built two live
+    products — an AI career platform (SkillYou) and a Web3 portfolio tracker
+    (CryptoNice) — because I like solving real problems with data and technology.
+  superpowers:
+    - "End-to-end supply chain operations and data tracking at scale"
+    - "Translating complex data into clear, actionable business insights"
+    - "Building dashboards and reports that stakeholders actually use"
+    - "Cross-functional stakeholder management and escalation handling"
+    - "AI/ML application — from churn prediction to demand forecasting"
+  proof_points:
+    - name: "Myntra Central Control Tower — BAU Target"
+      url: "linkedin.com/in/vignesh-v-051a001b3"
+      hero_metric: "Tracked 5–8 lakh CPD shipments, achieved 3.7% BAU asset utilization"
+    - name: "Spire Technologies — Data Accuracy"
+      url: "linkedin.com/in/vignesh-v-051a001b3"
+      hero_metric: "Improved system data accuracy from 75% to 85% across 5+ client accounts"
+    - name: "Frankmax Tech — Business Performance"
+      url: "linkedin.com/in/vignesh-v-051a001b3"
+      hero_metric: "Drove business performance from 60% to 80% within 6 months"
+    - name: "SkillYou — AI Career Platform"
+      url: "https://skillyou.in"
+      hero_metric: "Live AI platform — personalised job recommendations and interview prep"
+    - name: "CryptoNice — Web3 Portfolio Platform"
+      url: "https://cryptonice.lovable.app"
+      hero_metric: "Live Web3 product — real-time crypto portfolio tracking and strategy"
+    - name: "Heart Attack Prediction — ML Model"
+      url: "https://github.com/VigneshsparrowEsh/Heart_attack_pred"
+      hero_metric: "87% prediction accuracy using Random Forest, Decision Tree, Logistic Regression"
+
+compensation:
+  target_range: "$40K-80K"
+  currency: "USD"
+  minimum: "$30K"
+  location_flexibility: "100% Remote only — open to any global company"
+
+location:
+  country: "India"
+  city: "Bengaluru"
+  timezone: "IST (UTC+5:30)"
+  visa_status: "Requires visa sponsorship for relocation — open to fully remote without relocation"
+  onsite_availability: "100% remote only — no hybrid or onsite"
+
+cv:
+  output_format: "html"
