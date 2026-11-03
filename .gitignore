@@ -16,7 +16,7 @@ batch/tracker-additions/**/*.tsv
 jds/*
 !jds/.gitkeep
 
-# Writing samples (user's personal files — never committed)
+# Writing samples (user's personal files â€” never committed)
 writing-samples/*
 !writing-samples/README.md
 
@@ -27,7 +27,7 @@ modes/_profile.md
 .update-dismissed
 .update-lock
 
-# Secrets (never commit — use .env.example as template)
+# Secrets (never commit â€” use .env.example as template)
 .env
 
 # Generated
@@ -45,3 +45,20 @@ bun.lock
 .claude/memory/
 career-dashboard
 package-lock.json
+# JobHarvest local data
+__pycache__/
+*.pyc
+data/*.sqlite3*
+data/*.log
+data/*.csv
+.venv/
+
+/career-ops/
+/data/*.lock
+/data/*.json
+/scripts/runtime.json
+/dashboard*.jpg
+/data/*.md
+/data/*.tsv
+/data/*.json
+/.jobharvest-*

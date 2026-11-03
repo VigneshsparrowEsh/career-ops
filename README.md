@@ -1,5 +1,22 @@
 # Career-Ops
 
+## JobHarvest web app
+
+This repository now includes a local job-search app connected to the Career-Ops profile and review inbox. Open **start-dashboard.cmd** and visit **http://127.0.0.1:8766/**. Python 3.10+ is required. Run `npm install` to read YAML profiles and use the existing Career-Ops utilities.
+
+- **My matches:** preliminary ranking against your target titles, saved skills, experience and country. Each job explains reasons, gaps, eligibility checks and stale observations.
+- **Remote jobs:** a separate career-matched remote view. Remote hiring restrictions are checked independently; remote does not automatically mean available worldwide.
+- **Saved jobs:** shortlist listings, keep private notes, or hide them from personal matches. All jobs remains available for exploration.
+- **Career profile:** edit your résumé and preferences in the app. It uses the canonical `cv.md` and `config/profile.yml`; those personal files remain ignored by Git.
+- **Review with Career-Ops:** queue a selected job in the existing `data/pipeline.md` inbox and save its JD under `jds/`. Existing Career-Ops modes handle deeper A–G evaluations, reports, tailored CVs and the TSV/merge tracker flow. Queueing is not an evaluation or application.
+- **Company career sites:** add supported public boards worldwide. Existing collection and the local daily task continue to populate the same database.
+
+Fit scores are transparent rules-based signals from 0–100, not probabilities or Career-Ops' 1–5 evaluations. Salary preferences are retained for deeper review; currencies, market pay, visas and work authorization are not guessed. No external AI service is called by the web app. Jobs' original source links and observation dates remain available.
+
+On a fresh checkout, add your résumé and target roles through **Career profile**, or provide the standard Career-Ops personal files. This computer was initialized from the Vignesh profile and résumé already present in this repository, with the target roles updated in the local profile. The database, private notes, résumé and personal settings are excluded from source control.
+
+Commands: `python -m jobharvest serve`, `python -m jobharvest collect`, and `python -m unittest discover -s tests -v`. See [JobHarvest instructions](JOBHARVEST.md) for collection setup and source limitations, and [validation](VALIDATION.md) for the checks and known limits.
+
 [English](README.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [Русский](README.ru.md) | [简体中文](README.cn.md) | [繁體中文](README.zh-TW.md)
 
 <p align="center">

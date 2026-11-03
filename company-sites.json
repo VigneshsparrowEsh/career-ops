@@ -1,0 +1,12 @@
+[
+  {"company": "Stripe", "url": "https://job-boards.greenhouse.io/stripe"},
+  {"company": "Airbnb", "url": "https://job-boards.greenhouse.io/airbnb"},
+  {"company": "Cloudflare", "url": "https://job-boards.greenhouse.io/cloudflare"},
+  {"company": "Razorpay", "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited"},
+  {"company": "Figma", "url": "https://job-boards.greenhouse.io/figma"},
+  {"company": "Notion", "url": "https://jobs.ashbyhq.com/notion"},
+  {"company": "Ramp", "url": "https://jobs.ashbyhq.com/ramp"},
+  {"company": "Linear", "url": "https://jobs.ashbyhq.com/linear"},
+  {"company": "Palantir", "url": "https://jobs.lever.co/palantir"},
+  {"company": "Spotify", "url": "https://jobs.lever.co/spotify"}
+]

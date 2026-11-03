@@ -1,0 +1,24 @@
+name: JobHarvest web app
+on:
+  push:
+    paths: ['jobharvest/**', 'tests/**', 'config.json', '.github/workflows/jobharvest.yml']
+  pull_request:
+    paths: ['jobharvest/**', 'tests/**', 'config.json', '.github/workflows/jobharvest.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - run: python -m unittest discover -s tests -v
+      - run: node --check jobharvest/web/app.js

@@ -1,0 +1,176 @@
+{
+  "database": "data/jobs.sqlite3",
+  "schedule": {
+    "time": "00:00",
+    "timezone": "Asia/Kolkata"
+  },
+  "collection": {
+    "timeout_seconds": 30,
+    "retries": 2,
+    "page_delay_seconds": 1,
+    "max_pages": 30,
+    "close_after_missing_runs": 3
+  },
+  "filters": {
+    "roles": [],
+    "locations": [],
+    "remote_only": false
+  },
+  "sources": [
+    {
+      "name": "remotive",
+      "type": "remotive",
+      "enabled": true,
+      "min_interval_hours": 6
+    },
+    {
+      "name": "arbeitnow",
+      "type": "arbeitnow",
+      "enabled": true,
+      "min_interval_hours": 1
+    },
+    {
+      "name": "greenhouse-example",
+      "type": "greenhouse",
+      "enabled": false,
+      "board": "your-company-board-token",
+      "company": "Your Company",
+      "min_interval_hours": 1
+    },
+    {
+      "name": "lever-example",
+      "type": "lever",
+      "enabled": false,
+      "board": "your-company-site-name",
+      "company": "Your Company",
+      "region": "global",
+      "min_interval_hours": 1
+    },
+    {
+      "name": "greenhouse-stripe",
+      "type": "greenhouse",
+      "enabled": true,
+      "board": "stripe",
+      "company": "Stripe",
+      "min_interval_hours": 6,
+      "career_url": "https://job-boards.greenhouse.io/stripe"
+    },
+    {
+      "name": "greenhouse-airbnb",
+      "type": "greenhouse",
+      "enabled": true,
+      "board": "airbnb",
+      "company": "Airbnb",
+      "min_interval_hours": 6,
+      "career_url": "https://job-boards.greenhouse.io/airbnb"
+    },
+    {
+      "name": "greenhouse-cloudflare",
+      "type": "greenhouse",
+      "enabled": true,
+      "board": "cloudflare",
+      "company": "Cloudflare",
+      "min_interval_hours": 6,
+      "career_url": "https://job-boards.greenhouse.io/cloudflare"
+    },
+    {
+      "name": "ashby-notion",
+      "type": "ashby",
+      "enabled": true,
+      "board": "notion",
+      "company": "Notion",
+      "min_interval_hours": 6,
+      "career_url": "https://jobs.ashbyhq.com/notion"
+    },
+    {
+      "name": "ashby-ramp",
+      "type": "ashby",
+      "enabled": true,
+      "board": "ramp",
+      "company": "Ramp",
+      "min_interval_hours": 6,
+      "career_url": "https://jobs.ashbyhq.com/ramp"
+    },
+    {
+      "name": "ashby-linear",
+      "type": "ashby",
+      "enabled": true,
+      "board": "linear",
+      "company": "Linear",
+      "min_interval_hours": 6,
+      "career_url": "https://jobs.ashbyhq.com/linear"
+    },
+    {
+      "name": "lever-palantir",
+      "type": "lever",
+      "enabled": true,
+      "board": "palantir",
+      "company": "Palantir",
+      "min_interval_hours": 6,
+      "career_url": "https://jobs.lever.co/palantir",
+      "region": "global"
+    },
+    {
+      "name": "lever-spotify",
+      "type": "lever",
+      "enabled": true,
+      "board": "spotify",
+      "company": "Spotify",
+      "min_interval_hours": 6,
+      "career_url": "https://jobs.lever.co/spotify",
+      "region": "global"
+    },
+    {
+      "name": "google-careers",
+      "type": "google",
+      "enabled": true,
+      "company": "Google",
+      "min_interval_hours": 6,
+      "career_url": "https://www.google.com/about/careers/applications/jobs/results"
+    },
+    {
+      "name": "greenhouse-razorpaysoftwareprivatelimited",
+      "type": "greenhouse",
+      "enabled": true,
+      "board": "razorpaysoftwareprivatelimited",
+      "company": "Razorpay",
+      "min_interval_hours": 6,
+      "career_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited"
+    },
+    {
+      "name": "greenhouse-figma",
+      "type": "greenhouse",
+      "enabled": true,
+      "board": "figma",
+      "company": "Figma",
+      "min_interval_hours": 6,
+      "career_url": "https://job-boards.greenhouse.io/figma"
+    },
+    {
+      "name": "meta-careers",
+      "type": "meta",
+      "enabled": true,
+      "company": "Meta",
+      "min_interval_hours": 6,
+      "career_url": "https://www.metacareers.com/jobsearch/"
+    },
+    {
+      "name": "greenhouse-canonical",
+      "type": "greenhouse",
+      "enabled": true,
+      "board": "canonical",
+      "company": "Canonical",
+      "min_interval_hours": 6,
+      "career_url": "https://job-boards.greenhouse.io/canonical"
+    },
+    {
+      "name": "ashby-oyster",
+      "type": "ashby",
+      "enabled": true,
+      "board": "oyster",
+      "company": "Oyster",
+      "min_interval_hours": 6,
+      "career_url": "https://jobs.ashbyhq.com/oyster"
+    }
+  ]
+}
